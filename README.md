@@ -30,7 +30,7 @@ My personal Linux desktop configuration in the 'Graphite' color scheme, built ar
 | Spicetify | Graphite colors and spotifytui theme |
 | Vesktop | Graphite color | 
 
-## Structure
+## 📂 Structure
 
 ```
 .
