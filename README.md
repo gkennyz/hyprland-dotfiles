@@ -1,7 +1,9 @@
+# Hyprland Dotfiles (Graphite Color Scheme) 🌑
+
+My personal Linux desktop configuration in the 'Graphite' color scheme, built around [Hyprland](https://hyprland.org/), a dynamic tiling Wayland compositor. Feel free to use the dotfiles or for inspiration!  
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c52be35e-36df-4b5c-a85f-10c8693fa97e" />
 
-# 🗂️ .Dotfiles Hyprland (Graphite Color Scheme) 🌑
-These are my dotfiles that I use for Hyprland, in the 'Graphite' color scheme, feel free to use the dotfiles or for inspiration!  
 - 🖌️ **Base Color Palette Codes:**
   - ![#1e1e1e](https://placehold.co/15x15/1e1e1e/1e1e1e.png)⠀`#1e1e1e`
   - ![#2a2a2a](https://placehold.co/15x15/2a2a2a/2a2a2a.png)⠀`#2a2a2a` 
@@ -12,31 +14,68 @@ These are my dotfiles that I use for Hyprland, in the 'Graphite' color scheme, f
   - ![#d0d0d0](https://placehold.co/15x15/d0d0d0/d0d0d0.png)⠀`#d0d0d0`
   - ![#505050](https://placehold.co/15x15/505050/505050.png)⠀`#505050`
   
-> [!NOTE]  
-> > I'm a beginner in Linux, as I learn I improve and add more things here and to dotfiles.
+# What's included
 
-## 🎨 What is included in this dotfiles currently?
+| Component | Tool |
+|-----------|------|
+| Window manager | Hyprland |
+| Status bar | Waybar & Wlogout |
+| Terminal | Kitty, Fastfetch, Superfile & Btop |
+| Launcher | Rofi |
+| Notifications | Swaync |
+| Shell | zsh |
+| Wallpaper | Hyprpaper |
+| Font | JetBrainsMonoNerd |
+| Theme | Kvantum-Graphite |
+| Spicetify | Graphite colors and spotifytui theme |
+| Vesktop | Graphite color | 
 
-- Btop
-- Fastfetch
-  - With custom logo
-- Kitty
-  - With custom colors
-- Kvantum
-- Lazyvim 
-  - ~~Not completed/broken~~
-- Rofi
-- Spicetify 
-  - `spotifytui` with custom colors
-- Superfile
-- Vesktop 
-  - Custom color with `quick.css`
-- Waybar
-  - With custom scripts
-- Wlogout
+## Structure
 
-## ⚠️ Requeriments:
+```
+.
+├── hypr/           # Hyprland configuration
+├── waybar/         # Status bar
+├── wlogout/        # Power options in waybar configuration
+├── kitty/          # Terminal configuration
+├── kvantum/        # Kvantum theme
+├── btop/           # Btop configuration
+├── fastfetch/      # Custom fastfetch
+├── superfile/      # File manager terminal configuration
+├── rofi/           # App launcher configuration
+├── spotitui-graph/ # Spotifytui custom colors
+├── vesktop/        # Vesktop custom colors
+```
+## Installation
 
-- All packages listed [above](https://github.com/darrkzz/hypr-dotfiles/tree/color-graphite?tab=readme-ov-file#-what-is-included-in-this-dotfiles-currently)
-- JetBrainsMono Nerd Font or any Nerd Font
-- Swaync
+> **Note:** these are my personal settings. Review the files and back up your current configuration before using them.
+
+1. Install the dependencies:
+
+```zsh
+   # Example for Arch Linux
+   sudo pacman -S hyprland hyprpaper hyprcursor kitty fastfetch waybar swaync wlogout kvantum qt5ct qt6ct rofi 
+```
+
+2. Clone the repository:
+
+```zsh
+   git clone https://github.com/gkennyz/hyprland-dotfiles.git
+   cd hyprland-dotfiles
+```
+
+3. Back up your existing configs and copy the new ones:
+
+```zsh
+   mkdir -p ~/.config-backup
+   cp -r ~/.config/hypr ~/.config-backup/ 2>/dev/null
+   cp -r hypr ~/.config/
+   # repeat for the other folders you want to use
+```
+
+4. Log out and start a Hyprland session.
+
+
+## Notes
+
+- Tested on: Arch Linux 6.15.7
