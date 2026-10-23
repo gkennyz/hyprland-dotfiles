@@ -1,15 +1,7 @@
 /* 
-  _____     _   _ _             _        __        ___                         _   
- | ____|___| |_(_| | ___     __| | ___   \ \      / | | ___   __ _  ___  _   _| |_ 
- |  _| / __| __| | |/ _ \   / _` |/ _ \   \ \ /\ / /| |/ _ \ / _` |/ _ \| | | | __|
- | |___\__ | |_| | | (_) | | (_| | (_) |   \ V  V / | | (_) | (_| | (_) | |_| | |_ 
- |_____|___/\__|_|_|\___/   \__,_|\___/     \_/\_/  |_|\___/ \__, |\___/ \__,_|\__|
-                                                             |___/                 
-*/
-
-/*
-  [  ] Autor : Darkz(darrkzz)
-  [  ] Github : @darrkzz
+────────────────────────────────────
+Window
+────────────────────────────────────
 */
 
 window {
@@ -19,6 +11,12 @@ window {
     background-color: rgba(30, 30, 30, 0.3);
 
 } 
+
+/*
+────────────────────────────────────
+Buttons
+────────────────────────────────────
+*/
 
 button {
     background-repeat: no-repeat;
@@ -47,37 +45,37 @@ button:hover {
 }
 
 #shutdown {
-    background-image: image(url("/home/darkz/.config/wlogout/icons/desligar.png"));
+    background-image: image(url("powe.png")); /*Put the path of the icon in "" */
 }
 #shutdown:hover {
-  background-image: image(url("/home/darkz/.config/wlogout/icons/desligar-hover.png"));
+  background-image: image(url("power-hover.png")); /*Put the path of the icon in "" */
 }
 
 #logout {
-    background-image: image(url("/home/darkz/.config/wlogout/icons/logout.png"));
+    background-image: image(url("logout.png")); /*Put the path of the icon in "" */
 
 }
 #logout:hover {
-  background-image: image(url("/home/darkz/.config/wlogout/icons/logout-hover.png"));
+  background-image: image(url("logout-hover.png")); /*Put the path of the icon in "" */
 }
 
 #reboot {
-    background-image: image(url("/home/darkz/.config/wlogout/icons/reiniciar.png"));
+    background-image: image(url("restart.png")); /*Put the path of the icon in "" */
 }
 #reboot:hover {
-  background-image: image(url("/home/darkz/.config/wlogout/icons/reiniciar-hover.png"));
+  background-image: image(url("restart-hover.png")); /*Put the path of the icon in "" */
 }
 
 #lock {
-    background-image: image(url("/home/darkz/.config/wlogout/icons/bloquear.png"));
+    background-image: image(url("lock.png")); /*Put the path of the icon in "" */
 }
 #lock:hover {
-  background-image: image(url("/home/darkz/.config/wlogout/icons/bloquear-hover.png"));
+  background-image: image(url("lock-hover.png")); /*Put the path of the icon in "" */
 }
 
 #hibernate {
-    background-image: image(url("/home/darkz/.config/wlogout/icons/hibernar.png"));
+    background-image: image(url("hibernate.png")); /*Put the path of the icon in "" */
 }
 #hibernate:hover {
-  background-image: image(url("/home/darkz/.config/wlogout/icons/hibernar-hover.png"));
+  background-image: image(url("hibernate-hover.png")); /*Put the path of the icon in "" */
 }
