@@ -88,3 +88,6 @@ My personal Linux desktop configuration in the 'Graphite' color scheme, built ar
 
 - Tested on: Arch Linux 6.15.7
 - I don't updated to the new Hyprland version with the new config schema/language, in the future i will update
+
+## 📃 Credits
+[Inspired by: Graphite theme by vinceliuice]
