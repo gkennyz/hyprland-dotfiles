@@ -48,6 +48,7 @@ My personal Linux desktop configuration in the 'Graphite' color scheme, built ar
 ├── spotitui-graph/ # Spotifytui custom colors
 ├── vesktop/        # Vesktop custom colors
 ```
+
 ## 🔧 Installation
 
 > **Note:** these are my personal settings. Review the files and back up your current configuration before using them.
@@ -77,6 +78,11 @@ My personal Linux desktop configuration in the 'Graphite' color scheme, built ar
 
 4. Log out and start a Hyprland session.
 
+5. You need to specify the path where you saved the icons of the wlogout, so after the instalation, go to the style.css file and specify the path of icons:
+
+```
+~/.config/wlogout/style.css
+```
 
 ## 📜 Notes
 
