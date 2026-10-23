@@ -15,7 +15,6 @@ configuration {
 	window-format:              "{c}   {t}";
 }
 
-
 /*
 ────────────────────────────────────
 Proprieties
@@ -31,7 +30,6 @@ Proprieties
     active:                      #3F3F3F;
     urgent:                      #3F3F3F;
 }
-
 
 /*
 ────────────────────────────────────
@@ -55,7 +53,6 @@ window {
     cursor:                      "default";
     background-color:            @background;
 }
-
 
 /*
 ────────────────────────────────────
@@ -90,7 +87,6 @@ listbox {
 dummy {
     background-color:            transparent;
 }
-
 
 /* 
 ────────────────────────────────────
@@ -148,7 +144,6 @@ button selected {
     text-color:                  @foreground;
 }
 
-
 /*
 ────────────────────────────────────
 List View
@@ -172,7 +167,6 @@ listview {
     text-color:                  @foreground;
     cursor:                      "default";
 }
-
 
 /*
 ────────────────────────────────────
