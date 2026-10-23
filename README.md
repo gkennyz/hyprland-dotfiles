@@ -4,7 +4,7 @@ My personal Linux desktop configuration in the 'Graphite' color scheme, built ar
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c52be35e-36df-4b5c-a85f-10c8693fa97e" />
 
-- 🖌️ **Base Color Palette Codes:**
+🖌️ **Base Color Palette Codes:**
   - ![#1e1e1e](https://placehold.co/15x15/1e1e1e/1e1e1e.png)⠀`#1e1e1e`
   - ![#2a2a2a](https://placehold.co/15x15/2a2a2a/2a2a2a.png)⠀`#2a2a2a` 
   - ![#3c3c3c](https://placehold.co/15x15/3c3c3c/3c3c3c.png)⠀`#3c3c3c`
@@ -14,7 +14,7 @@ My personal Linux desktop configuration in the 'Graphite' color scheme, built ar
   - ![#d0d0d0](https://placehold.co/15x15/d0d0d0/d0d0d0.png)⠀`#d0d0d0`
   - ![#505050](https://placehold.co/15x15/505050/505050.png)⠀`#505050`
   
-# What's included
+# ❓ What's included
 
 | Component | Tool |
 |-----------|------|
@@ -46,7 +46,7 @@ My personal Linux desktop configuration in the 'Graphite' color scheme, built ar
 ├── spotitui-graph/ # Spotifytui custom colors
 ├── vesktop/        # Vesktop custom colors
 ```
-## Installation
+## 🔧 Installation
 
 > **Note:** these are my personal settings. Review the files and back up your current configuration before using them.
 
@@ -76,6 +76,7 @@ My personal Linux desktop configuration in the 'Graphite' color scheme, built ar
 4. Log out and start a Hyprland session.
 
 
-## Notes
+## 📜 Notes
 
 - Tested on: Arch Linux 6.15.7
+- I don't updated to the new Hyprland version with the new config schema/language, in the future i will update
