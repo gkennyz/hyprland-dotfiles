@@ -1,6 +1,7 @@
 # Hyprland Dotfiles (Graphite Color Scheme) 🌑
 > [!NOTE]
 > This repository is no longer actively maintained because i needed to change my OS.
+
 My personal Linux desktop configuration in the 'Graphite' color scheme, built around [Hyprland](https://hyprland.org/), a dynamic tiling Wayland compositor. Feel free to use the dotfiles or for inspiration!  
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c52be35e-36df-4b5c-a85f-10c8693fa97e" />
